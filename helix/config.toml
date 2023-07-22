@@ -1,0 +1,15 @@
+theme = "dark_high_contrast"
+
+[editor.gutters]
+layout = ["line-numbers", "diff"]
+
+[editor.gutters.line-numbers]
+min-width = 0
+
+[editor.cursor-shape]
+normal = "underline"
+insert = "underline"
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = "|"
