@@ -1,4 +1,7 @@
-theme = "dark_high_contrast"
+theme = "onedarker"
+
+[editor]
+auto-save = true
 
 [editor.gutters]
 layout = ["line-numbers", "diff"]
@@ -6,10 +9,15 @@ layout = ["line-numbers", "diff"]
 [editor.gutters.line-numbers]
 min-width = 0
 
-[editor.cursor-shape]
-normal = "underline"
-insert = "underline"
-
 [editor.soft-wrap]
 enable = true
-wrap-indicator = "|"
+wrap-indicator = "⌉"
+
+[keys.insert]
+C-s = ":w"
+C-f = "file_picker"
+
+[keys.normal]
+r = ":w"
+f = "file_picker"
+F = "file_picker_in_current_directory"
