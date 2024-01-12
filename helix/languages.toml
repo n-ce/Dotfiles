@@ -1,3 +1,19 @@
 [[language]]
 name = "jsx"
 auto-format = true
+
+[[language]]
+name = "javascript"
+auto-format = true
+
+[[language]]
+name = "typescript"
+auto-format = true
+
+[[language]]
+name = "html"
+auto-format = true
+
+[[language]]
+name = "css"
+auto-format = true
