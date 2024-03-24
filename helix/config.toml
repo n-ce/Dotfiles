@@ -1,4 +1,4 @@
-theme = "onedarker"
+theme = "varua"
 
 [editor]
 auto-save = true
@@ -21,3 +21,4 @@ C-f = "file_picker"
 r = ":w"
 f = "file_picker"
 F = "file_picker_in_current_directory"
+Y = "yank_main_selection_to_clipboard"
